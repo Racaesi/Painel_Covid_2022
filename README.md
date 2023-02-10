@@ -29,21 +29,9 @@ Este projeto visa responder 3 questionamentos base:
 Para tanto, fez-se necesário algumas tratativas no Dataset do SIVEP-GRIPE, como a definição das colunas a serem utilizadas e o tratamento dos dados para análise.
 No diretório de PDFs encontra-se o dicionário de Dados, o último Boletim Epidemiológico (que utilizamos como fonte de consulta apenas) e a ficha de preenchimento de SRAG.
 
-As colunas que utilizamos para a nossa análise foram:
-
-  DT_NOTIFIC - Data do preenchimento da ficha de notificação
-  SEM_NOT - Semana Epidemiológica do preenchimento da ficha de notificação
-  SG_UF_NOT - Unidade Federativa onde está localizada a Unidade Sentinela que realizou a notificação.
-  CS_SEXO - Sexo do paciente.
-  DT_NASC - Data de nascimento do paciente.
-  NU_IDADE_N - Idade calculada após o preenchimento da DT_NASC, ou idade informada pelo paciente quando não se sabe a data de nascimento. Na falta desse dado é   registrada a idade aparente.
-  CS_GESTANT - Idade gestacional da paciente.
-  CS_RACA - Cor ou raça declarada pelo paciente:
-  CS_ESCOL_N - Nível de escolaridade do paciente. Para os níveis fundamental e médio deve ser considerada a última série ou ano concluído.
-  SG_UF - Unidade Federativa de residência do paciente.
-  VACINA_COV - Informa se o paciente recebeu vacina COVID-19.
-  MAE_VAC - Se paciente < 6 meses, a mãe recebeu vacina
-  CLASSI_FIN - Diagnóstico final do caso
-  EVOLUCAO - Evolução do caso
 
 O tratamento dos dados foram variados, especificados caso à caso no Notebook, foram aplicadas as técnicas de programação para análise de dados para seleção de colunas, deleção de colunas, deleção de linhas inválidas, replace de valores, criação de novos dataframes, criação de gráficos e funções para automatizar alguns processos.
+
+
+Gráfico retirado de uma das análises 
+![image](https://user-images.githubusercontent.com/114450210/217971893-3f5182e1-137a-4652-9277-2d176bd9b394.png)
